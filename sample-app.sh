@@ -7,7 +7,6 @@ if [ -d "$DIR" ]; then
     rm -rf "$DIR"
 fi 
 
-mkdir -p "$DIR"
 mkdir -p "$DIR"/templates
 mkdir -p "$DIR"/static
 
